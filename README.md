@@ -1,26 +1,25 @@
-Task 2 from Code Clause: Text Classification with Logistic Regression
+Task 2 from Code Clause: Sentiment Analysis with Logistic Regression
 
-This repository contains the code for Task 2 from Code Clause, which focuses on implementing a text classification model using Logistic Regression. The project aims to classify text data into different categories based on their content.
+This repository contains the code for Task 2 from Code Clause, which focuses on implementing a sentiment analysis model using Logistic Regression. The project aims to classify text data into positive, negative, or neutral sentiment categories based on the content of the text.
 
 📁 Dataset:
-The project utilizes two datasets: "Reddit_Data.csv" and "Twitter_Data.csv". These datasets contain text samples and their corresponding categories. The data preprocessing involves lowercase conversion, stopword removal, and TF-IDF vectorization.
+The project utilizes two datasets: "Reddit_Data.csv" and "Twitter_Data.csv". These datasets contain text samples and their corresponding sentiment labels. The data preprocessing involves lowercasing, stopword removal, and TF-IDF vectorization.
 
 🔧 Model Training:
-The Logistic Regression model is trained using TF-IDF vectors as input features. The model learns the patterns in the text data to make accurate predictions. To address convergence issues, the maximum number of iterations during training is limited.
+The sentiment analysis model is trained using Logistic Regression with TF-IDF vectors as input features. The model learns sentiment patterns in the text data to make accurate predictions. To optimize performance, hyperparameters are fine-tuned, and convergence issues are addressed.
 
 🎯 Evaluation:
-The model's performance is evaluated on a separate test set. The accuracy score is calculated to measure the model's overall performance. Additionally, a confusion matrix is generated to visualize the model's predictions and identify misclassifications.
+The model's performance is evaluated on a separate test set. The accuracy score is measured to assess the overall sentiment classification accuracy. Additionally, a confusion matrix is generated to visualize the model's predictions and identify misclassifications.
 
 💡 Key Skills:
 
 Text preprocessing techniques
 TF-IDF vectorization
-Logistic Regression modeling
+Sentiment analysis with Logistic Regression
+Model hyperparameter tuning
 Model evaluation and performance metrics
-This project provides an opportunity to apply machine learning techniques to real-world text data. The code and implementation can serve as a learning resource for text classification tasks.
+This project provides a practical implementation of sentiment analysis using Logistic Regression. The code and implementation can serve as a learning resource for sentiment analysis tasks.
 
-#CodeClause #TextClassification #LogisticRegression #MachineLearning #Python
-
-Feel free to modify and personalize the descriptions as needed for your LinkedIn and GitHub profiles.
+#CodeClause #SentimentAnalysis #LogisticRegression #MachineLearning #Python
 
 Dataset link (file was too big) : https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset
