@@ -14,3 +14,5 @@ The project is implemented in the Google Colab IDE, a cloud-based Python noteboo
 The project's code and datasets are uploaded to GitHub for easy access and version control. The repository serves as a resource for understanding fake news detection and replicating the project. The code can also be shared on LinkedIn, showcasing expertise in machine learning and data analysis.
 
 Overall, this project demonstrates the application of machine learning in detecting fake news. It serves as a valuable resource for understanding the process of building and evaluating classification models. By leveraging Python, Colab, and scikit-learn, the project provides insights into the implementation of a practical solution for fake news detection.
+
+Dataset link (file was too big) : https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset
