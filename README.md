@@ -1,18 +1,26 @@
-# Fake-News-Detection
-This project, developed as Task 1 for Code Clause, focuses on fake news detection using Python and the Google Colab IDE. The aim is to build a machine learning model that can classify news articles as real or fake based on their content.
+Task 2 from Code Clause: Text Classification with Logistic Regression
 
-The project utilizes Python and popular libraries like pandas, numpy, and scikit-learn. These libraries provide essential functionality for data handling, preprocessing, and implementing machine learning algorithms.
+This repository contains the code for Task 2 from Code Clause, which focuses on implementing a text classification model using Logistic Regression. The project aims to classify text data into different categories based on their content.
 
-Two datasets, 'real_news.csv' and 'fake_news.csv', are used to train and test the model. The project demonstrates how to load and preprocess the datasets, splitting them into training and testing sets.
+📁 Dataset:
+The project utilizes two datasets: "Reddit_Data.csv" and "Twitter_Data.csv". These datasets contain text samples and their corresponding categories. The data preprocessing involves lowercase conversion, stopword removal, and TF-IDF vectorization.
 
-The machine learning model used is the PassiveAggressiveClassifier from scikit-learn. The model is trained using TF-IDF vectorization, which converts textual data into numerical feature vectors. The trained model predicts the authenticity of news articles in the testing set.
+🔧 Model Training:
+The Logistic Regression model is trained using TF-IDF vectors as input features. The model learns the patterns in the text data to make accurate predictions. To address convergence issues, the maximum number of iterations during training is limited.
 
-The accuracy of the model is evaluated using metrics like accuracy score and confusion matrix. These metrics provide insights into the model's performance.
+🎯 Evaluation:
+The model's performance is evaluated on a separate test set. The accuracy score is calculated to measure the model's overall performance. Additionally, a confusion matrix is generated to visualize the model's predictions and identify misclassifications.
 
-The project is implemented in the Google Colab IDE, a cloud-based Python notebook environment. Colab offers free access to GPU and TPU resources, enabling faster computation for machine learning tasks.
+💡 Key Skills:
 
-The project's code and datasets are uploaded to GitHub for easy access and version control. The repository serves as a resource for understanding fake news detection and replicating the project. The code can also be shared on LinkedIn, showcasing expertise in machine learning and data analysis.
+Text preprocessing techniques
+TF-IDF vectorization
+Logistic Regression modeling
+Model evaluation and performance metrics
+This project provides an opportunity to apply machine learning techniques to real-world text data. The code and implementation can serve as a learning resource for text classification tasks.
 
-Overall, this project demonstrates the application of machine learning in detecting fake news. It serves as a valuable resource for understanding the process of building and evaluating classification models. By leveraging Python, Colab, and scikit-learn, the project provides insights into the implementation of a practical solution for fake news detection.
+#CodeClause #TextClassification #LogisticRegression #MachineLearning #Python
+
+Feel free to modify and personalize the descriptions as needed for your LinkedIn and GitHub profiles.
 
 Dataset link (file was too big) : https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset
