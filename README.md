@@ -1,25 +1,27 @@
-Task 2 from Code Clause: Sentiment Analysis with Logistic Regression
+Task 1 from Code Clause: Fake News Detection with Machine Learning
 
-This repository contains the code for Task 2 from Code Clause, which focuses on implementing a sentiment analysis model using Logistic Regression. The project aims to classify text data into positive, negative, or neutral sentiment categories based on the content of the text.
+This repository contains the code for Task 1 from Code Clause, which focuses on developing a fake news detection model using machine learning techniques. The project aims to classify news articles as real or fake based on their content.
 
 📁 Dataset:
-The project utilizes two datasets: "Reddit_Data.csv" and "Twitter_Data.csv". These datasets contain text samples and their corresponding sentiment labels. The data preprocessing involves lowercasing, stopword removal, and TF-IDF vectorization.
+The project utilizes a labeled dataset of news articles, consisting of both real and fake samples. The dataset is carefully curated to ensure reliability and diversity. Text preprocessing and feature engineering techniques are applied to extract meaningful information from the articles.
 
 🔧 Model Training:
-The sentiment analysis model is trained using Logistic Regression with TF-IDF vectors as input features. The model learns sentiment patterns in the text data to make accurate predictions. To optimize performance, hyperparameters are fine-tuned, and convergence issues are addressed.
+Machine learning models, such as Naive Bayes, Random Forest, or Support Vector Machines, are trained to distinguish real and fake news articles. Different algorithms are experimented with, and the best-performing model is selected based on evaluation metrics and cross-validation.
 
 🎯 Evaluation:
-The model's performance is evaluated on a separate test set. The accuracy score is measured to assess the overall sentiment classification accuracy. Additionally, a confusion matrix is generated to visualize the model's predictions and identify misclassifications.
+The model's performance is evaluated using evaluation metrics such as accuracy, precision, recall, and F1-score. These metrics provide insights into the model's ability to correctly classify news articles. Additionally, a confusion matrix is generated to visualize the model's predictions and identify misclassifications.
 
 💡 Key Skills:
 
-Text preprocessing techniques
-TF-IDF vectorization
-Sentiment analysis with Logistic Regression
-Model hyperparameter tuning
-Model evaluation and performance metrics
-This project provides a practical implementation of sentiment analysis using Logistic Regression. The code and implementation can serve as a learning resource for sentiment analysis tasks.
+Text preprocessing and feature engineering
+Machine learning algorithms for classification
+Model selection and hyperparameter tuning
+Evaluation metrics for binary classification
+Interpretation of confusion matrix
+This project provides a practical implementation of fake news detection using machine learning techniques. The code and implementation can serve as a valuable resource for individuals interested in understanding and combating the spread of fake news.
 
-#CodeClause #SentimentAnalysis #LogisticRegression #MachineLearning #Python
+#CodeClause #FakeNewsDetection #MachineLearning #DataScience #Python
+
+Feel free to modify and personalize the descriptions as needed for your LinkedIn and GitHub profiles.
 
 Dataset link (file was too big) : https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset
