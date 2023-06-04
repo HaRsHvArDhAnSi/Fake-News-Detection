@@ -11,17 +11,23 @@ Machine learning models, such as Naive Bayes, Random Forest, or Support Vector M
 🎯 Evaluation:
 The model's performance is evaluated using evaluation metrics such as accuracy, precision, recall, and F1-score. These metrics provide insights into the model's ability to correctly classify news articles. Additionally, a confusion matrix is generated to visualize the model's predictions and identify misclassifications.
 
+📊 Graphs:
+To further analyze the model's performance, various graphs are plotted. One of the graphs includes a confusion matrix, which provides a visual representation of the model's predictions and the actual labels of the news articles. This matrix helps identify the number of true positives, true negatives, false positives, and false negatives.
+
 💡 Key Skills:
+The project enhances skills in the following areas:
 
 Text preprocessing and feature engineering
 Machine learning algorithms for classification
 Model selection and hyperparameter tuning
 Evaluation metrics for binary classification
-Interpretation of confusion matrix
+Interpretation of the confusion matrix and graphs
 This project provides a practical implementation of fake news detection using machine learning techniques. The code and implementation can serve as a valuable resource for individuals interested in understanding and combating the spread of fake news.
 
 #CodeClause #FakeNewsDetection #MachineLearning #DataScience #Python
 
-Feel free to modify and personalize the descriptions as needed for your LinkedIn and GitHub profiles.
+Dataset Link : https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset
 
-Dataset link (file was too big) : https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset
+If you have any questions or would like to discuss this project further, please don't hesitate to reach out. Let's connect on LinkedIn!
+
+https://www.linkedin.com/in/harsh-vardhan-singh-29ba53222/
